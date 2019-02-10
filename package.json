@@ -1,16 +1,29 @@
 {
-  "name": "week-12-homework",
+  "name": "bamazon",
   "version": "1.0.0",
-  "description": "mySQL and Nodejs",
-  "main": "index.js",
+  "description": "A CLI-based storefront with the MySQL database backend.",
+  "main": "bamazonCustomer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Kelly Mersereau",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angrbrd/bamazon.git"
+  },
+  "keywords": [
+    "storefront",
+    "CLI-storefront",
+    "store"
+  ],
+  "author": "Anna D Derbakova",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angrbrd/bamazon/issues"
+  },
+  "homepage": "https://github.com/angrbrd/bamazon#readme",
   "dependencies": {
-    "cli-table": "^0.3.1",
-    "mysql": "^2.10.2",
-    "prompt": "^1.0.0"
+    "inquirer": "^3.3.0",
+    "mysql": "^2.16.0",
+    "node": "^11.9.0"
   }
 }
