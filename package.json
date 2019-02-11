@@ -1,7 +1,7 @@
 {
   "name": "bamazon",
   "version": "1.0.0",
-  "description": "A CLI-based storefront with the MySQL database backend.",
+  "description":
   "main": "bamazonCustomer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,12 +15,12 @@
     "CLI-storefront",
     "store"
   ],
-  "author": "Anna D Derbakova",
-  "license": "ISC",
+  "author": "steve tucker",
+  "license": 
   "bugs": {
-    "url": "https://github.com/angrbrd/bamazon/issues"
+    "url":
   },
-  "homepage": "https://github.com/angrbrd/bamazon#readme",
+  "homepage": 
   "dependencies": {
     "inquirer": "^3.3.0",
     "mysql": "^2.16.0",
